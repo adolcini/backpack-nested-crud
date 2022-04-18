@@ -28,7 +28,7 @@
   <div id="nested-crud-fields-scripts"></div>
 
   {{-- Modal for create --}}
-  <div class="modal fade" id="{{ $createModalId }}" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+  <div class="modal fade" id="{{ $createModalId }}" role="dialog" style="display: none;" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <form method="post"
         action="{{ $routeBase.'/ajax' }}"
@@ -48,7 +48,7 @@
   </div>
 
   {{-- Modal for edit --}}
-  <div class="modal fade" id="{{ $editModalId }}" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+  <div class="modal fade" id="{{ $editModalId }}" role="dialog" style="display: none;" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <form method="post"
         action=""
